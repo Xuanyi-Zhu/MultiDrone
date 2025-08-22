@@ -4,10 +4,11 @@ import heapq
 import time
 
 # Initialize the MultiDrone environment
-# sim = MultiDrone(num_drones=2, environment_file="environment.yaml")
+sim = MultiDrone(num_drones=2, environment_file="environment.yaml")
 # Q2.4
-sim = MultiDrone(num_drones=2, environment_file="environment_1.yaml")
+# sim = MultiDrone(num_drones=2, environment_file="environment_1.yaml")
 # Q2.5
+# sim = MultiDrone(num_drones=2, environment_file="environment_2.yaml") # 2 drones
 # sim = MultiDrone(num_drones=4, environment_file="environment_2.yaml") # 4 drones
 # sim = MultiDrone(num_drones=8, environment_file="environment_2.yaml") # 8 drones
 # sim = MultiDrone(num_drones=12, environment_file="environment_2.yaml") # 12 drones

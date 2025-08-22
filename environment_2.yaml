@@ -4,14 +4,15 @@ bounds:
   z: [0, 60] # z-bounds
   
 initial_configuration: 
-  # 4 drones
+  # 2 drones
   - [1, 1, 1]
   - [2, 1, 1]
-  - [3, 1, 1]
-  - [4, 1, 1]
+  # 4 drones
+  # - [3, 1, 1]
+  # - [4, 1, 1]
   # 8 drones
-  - [5, 1, 1]
-  - [6, 1, 1]
+  # - [5, 1, 1]
+  # - [6, 1, 1]
   # - [7, 1, 1]
   # - [8, 1, 1]
   # 12 drones
@@ -71,20 +72,21 @@ obstacles:
   
     
 goals:
-# for 4 drones
+# for 2 drones
   - position: [10, 40, 5] # The 3D position of the first goal
     radius: 1.0 # The radius of the first goal
   - position: [15, 40, 5] # The 3D position of the second goal
     radius: 1.0 # The radius of the second goal
-  - position: [20, 40, 5] # The 3D position of the third goal
-    radius: 1.0 # The radius of the third goal
-  - position: [25, 40, 5] # The 3D position of the fourth goal
-    radius: 1.0 # The radius of the fourth goal
+# for 4 drones
+  # - position: [20, 40, 5] # The 3D position of the third goal
+  #   radius: 1.0 # The radius of the third goal
+  # - position: [25, 40, 5] # The 3D position of the fourth goal
+  #   radius: 1.0 # The radius of the fourth goal
 # for 8 drones
-  - position: [30, 40, 5] # The 3D position of the first goal
-    radius: 1.0 # The radius of the first goal
-  - position: [35, 40, 5] # The 3D position of the second goal
-    radius: 1.0 # The radius of the second goal
+  # - position: [30, 40, 5] # The 3D position of the first goal
+  #   radius: 1.0 # The radius of the first goal
+  # - position: [35, 40, 5] # The 3D position of the second goal
+  #   radius: 1.0 # The radius of the second goal
   # - position: [40, 40, 5] # The 3D position of the third goal
   #   radius: 1.0 # The radius of the third goal
   # - position: [45, 40, 5] # The 3D position of the fourth goal
